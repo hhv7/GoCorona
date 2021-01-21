@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "747309843959",
+    "project_id": "gocorona-ba478",
+    "storage_bucket": "gocorona-ba478.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:747309843959:android:a7d5347d00f11ff0c3daf2",
+        "android_client_info": {
+          "package_name": "com.gocorona"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "747309843959-uu6rohpne956jee9sdaadd1rg1sokbhi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQ_tuLE_oMYVqs_XUeJHNUw5-lrwriOw8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "747309843959-uu6rohpne956jee9sdaadd1rg1sokbhi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,31 @@
+<resources>
+
+    <style name="Widget.Theme.GoCorona.ActionBar.Fullscreen" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+    <style name="Widget.Theme.GoCorona.ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+    </style>
+
+    <style name="title_text">
+        <item name="android:textSize">@dimen/_22sdp</item>
+        <item name="android:textColor">@color/teal_700</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginBottom">@dimen/_20sdp</item>
+    </style>
+
+    <style name="form_tv">
+        <item name="android:textSize">@dimen/_14sdp</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:layout_marginBottom">@dimen/_10sdp</item>
+    </style>
+    <style name="form_ed">
+        <item name="android:textSize">@dimen/_14sdp</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:layout_marginBottom">@dimen/_10sdp</item>
+        <item name="android:padding">@dimen/_10sdp</item>
+        <item name="android:background">@drawable/border</item>
+    </style>
+</resources>

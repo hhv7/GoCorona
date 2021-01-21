@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gocorona">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GoCorona">
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".AdminActivity" />
+        <activity android:name=".VaccineDeveloperDashboardActivity" />
+        <activity android:name=".user.VolunteerDashBoardActivity" />
+        <activity android:name=".user.ScanActivity" />
+        <activity android:name=".user.SignInActivity" />
+        <activity android:name=".user.SignUpActivity" />
+        <activity
+            android:name=".SplashActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
